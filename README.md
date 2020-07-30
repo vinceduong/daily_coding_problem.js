@@ -7,7 +7,7 @@ gcl github.com/vinceduong/daily_coding_problem.js && cd daily_coding_problem.js
 npm install && npm run test  
 ```
 
-Each problem solution is exported as a function in the file `{problem_name}.js`
+Each problem solution is exported as a function in `{problem_name}.js`
 
 ---
 
