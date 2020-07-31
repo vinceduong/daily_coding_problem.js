@@ -22,6 +22,8 @@ For example, given "aaabbc", you could return "ababac". Given "aaab", return Non
 - File: `rearrange.js`
 - Test file: `rearrange.test.js`
 
+---
+
 ### Find similar pair
 
 This problem was asked by Quora.
