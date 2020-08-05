@@ -69,5 +69,5 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
 
 - File: `serialize.js`
-- Test file: `serialize.test.js
+- Test file: `serialize.test.js`
 
