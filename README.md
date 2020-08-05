@@ -42,6 +42,9 @@ For example, suppose k = 1, and the list of tuples is:
 
 Then a reasonable similarity metric would most likely conclude that a and e are the most similar, so your program should return `[('a', 'e')]`.
 
+- File: `findSimilarPair.js`
+- Test file: `findSimilarPair.test.js
+
 ---
 
 ### Serialize and deserialize a tree
@@ -64,3 +67,7 @@ The following test should pass:
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
+
+- File: `serialize.js`
+- Test file: `serialize.test.js
+
