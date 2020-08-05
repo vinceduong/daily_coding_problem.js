@@ -43,7 +43,7 @@ For example, suppose k = 1, and the list of tuples is:
 Then a reasonable similarity metric would most likely conclude that a and e are the most similar, so your program should return `[('a', 'e')]`.
 
 - File: `findSimilarPair.js`
-- Test file: `findSimilarPair.test.js
+- Test file: `findSimilarPair.test.js`
 
 ---
 
