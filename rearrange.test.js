@@ -1,19 +1,19 @@
 const rearrange = require('./rearrange')
 
-describe('Problem #584: Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same', () => {
-  test('Rearrange \'aaabbc\'', () => {
+describe('Rearrange string', () => {
+  test('\'aaabbc\'', () => {
     expect(rearrange('aaabbc')).toBe('ababac')
   })
 
-  test('Rearrange \'aaabbbcccc\'', () => {
+  test('\'aaabbbcccc\'', () => {
     expect(rearrange('aaabbbcccc')).toBe('acbcabcabc')
   })
 
-  test('Rearrange \'aaaabbcccc\'', () => {
+  test('\'aaaabbcccc\'', () => {
     expect(rearrange('aaaabbcccc')).toBe('acacabcabc')
   })
 
-  test('Rearrange \'aabbccddeeffgg\'', () => {
+  test('\'aabbccddeeffgg\'', () => {
     expect(rearrange('aabbccddeeffgg')).toBe('abcdefgabcdefg')
   })
 
